@@ -1,0 +1,11 @@
+Greg's Programming Philosophy
+
++Functional
++Elegant
+	-Extensible (features are able to be added)
+	-Maintainable
+	-Robust (fail proof)
+
+Sentinel Variable was "total" in AddingAllNumbers program
+
+

@@ -1,0 +1,30 @@
+Angular
+
+Angular is a JS framework
+
+SPA: single page application
+CLI: Command line Interface
+Module(application)
+Routing - switches views
+Service - common directive used by multiple components;
+no UI component, behind the scenes
+Component - like a class, UI 
+Decorators - @ signs ex. @Componenet
+
+GitBash Angular commands:
+
+--dryRun to test commands
+
+1. Create new directory with GitBash
+2. ng new -dir . --routing PrsNg (project file name?)
+3. ng serve -o (launch app)
+4. ng generate component menu
+5. ng g service filename.service.ts
+6. start(can be used with any command to run in background) ng serve -o
+
+Creating New Component:
+
+1. change directory to directory you want component to live in
+2. ng g component component-name
+
+../../assets/image.jpg

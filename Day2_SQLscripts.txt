@@ -1,0 +1,55 @@
+CREATE Database DotNetDatabase;
+
+CREATE Table Student (
+	ID int NOT NULL Primary Key identity (100,1),
+	FirstName NVARCHAR (30) NOT NULL, 
+	LastName NVARCHAR (30) NOT NULL,
+	Address NVARCHAR (50) NOT NULL,
+	City NVARCHAR (40) NOT NULL,
+	State NVARCHAR (2) NOT NULL,
+	Zipcode NVARCHAR (10) NOT NULL,
+	PhoneNumber nvarchar (10),
+	Email nvarchar (255),
+	Birthday datetime NOT NULL,
+)
+
+INSERT into Student
+	(FirstName, LastName, Address, City, State,
+	 Zipcode, PhoneNumber, Email, Birthday)
+	 VALUES
+	 ('Greg', 'Olsen', '1820 Whatever Street',
+	  'Cincinnati', 'OH', '45223', '5135627943', 
+	  'gdoud@maxtrain.com', '1992-02-04') 
+
+SELECT * from Student
+
+INSERT into Student
+	(FirstName, LastName, Address, City, State,
+	 Zipcode, PhoneNumber, Email, Birthday)
+	 VALUES
+	 ('Hahaha', 'Cool', '1923 AHHHHH Street',
+	  'Whatis', 'OH', '48923', '9372323232', 
+	  'uhhhhhwhat@gmail.com', '1993-11-07') 
+
+UPDATE Student Set
+	Birthday = '2017-08-29'
+
+DELETE from Student
+	Where ID = 101
+
+
+
+
+SELECT concat (s.FirstName, ' ', s.LastName) as FullName, concat (s.City, ', ',  st.State) as Location, m.Description as Major
+	From Student as s
+	Join Major m
+		on s.MajorID = m.ID
+	Join State st
+		on s.state = st.code
+	order by st.State
+
+Select * from student
+
+Select * from Major
+
+Select * from State

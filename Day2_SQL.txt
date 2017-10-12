@@ -1,0 +1,49 @@
+SQL
+
+1. Create Database
+2. Create Table (singular name)
+3. Create attributes (name, type, null?)
+
+3 things for columns - name, type, null?
+
+Primary Key - a column or columns with a value that makes 
+every row unique
+
+DML - Data Manipulation Language
+
+DDL - Data Definition Language
+
+int, double, datetime, nvarchar [?]
+
+Select * From (Database) - do this to display all columns
+
+Select LastName, FirstName from Student - displays only named column
+
+Select concat (FirstName, ' ', LastName) as 'Fullname' from (Database)
+
+select * from (database) 
+	where SAT >= 1200 and GPA >= 3.5
+	order by SAT desc
+
+Select before Updating!!!!
+
+Foreign Keys are keys from a different table and they
+ MAY BE NULL and must exist as a primary key in said table
+
+Primary keys are unique identifiers in a table, you cannot
+a primary key until you delete all foreign keys that 
+reference it
+
+Alias with "as" or "not with as"
+
+comment things you don't want to execute out with /* and */
+
+default values
+
+Right click table > Script table as CREATE to
+
+KEYSTROKES:
+
+Ctrl + R = result hide/show
+Ctrl + 0 = null
+

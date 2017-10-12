@@ -1,0 +1,25 @@
+C# Notes
+
+Computer looks for Main method to start program. When main method
+ends, program ends.
+
+Every time you create a new source file it will be a class.
+
+class [nouns]
+-properties (fields/variables)
+-methods (functions/procedures) [actions]
+	* is a reference type
+
+Variables belong at the top of a program. Set value ASAP.
+	example: var aLong = 42L
+
+Operators
+% modulus = remainder of dividend
+
+Variable types:
+-scalar [not null] numbers, boolean, dates
+-reference [nullable] strings, classes
+
+Keystrokes
+Comment highlighted text out: cntrl k + c
+Uncomment highlighted text out: cntrl k + u

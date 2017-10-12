@@ -1,0 +1,32 @@
+Code First Walkthrough 
+
+*Set Up*
+
+-> Create ASP.NET MVC web application w/ entity framework
+-> install-package entityframework
+-> make model?
+-> enable-migrations
+-> View Server Explorer
+-> Right click Data Connections -> Add Connection ->SQL Server
+-> Right mouse click Database --> Properties
+-> Copy Connection String
+-> Paste New Connection String into connection string value in web.config
+
+*Create Models*
+-> Create your model
+-> BUILD
+-> Create your controller (check add views) of model
+-> BUILD
+-> add-migration "  "
+-> update-database
+-> Add AddOrUpdate() method that includes all class properties
+to Configurations file under Migrations
+-> update-database
+-> add more models in this fashion
+
+*Create Message Class*
+1. Add item to project
+2. Add existing item
+3. Added Classes from EducationEFMVC/Utility
+
+install-package microsoft.aspnet.webapi.core?

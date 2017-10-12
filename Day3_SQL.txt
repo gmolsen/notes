@@ -1,0 +1,8 @@
+Day 3 SQL
+
+There are 3 options for deleting a Primary Key that has 
+Foreign Key referenced to it:
+
+Restrict (no action)
+Nullify (setnull)
+Cascade 

@@ -1,0 +1,18 @@
+Day 8 C#
+
+Casting 
+int i = 38;
+long L = (long) 38;
+
+...one type changes to another
+
+Object
+.ToString()
+
+object obj = "ABC";
+
+things to research
+
+exceptions, try catch blocks, finally...
+
+switch statements, casing

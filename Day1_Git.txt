@@ -1,0 +1,55 @@
+Git
+
+pwd = present working directory?
+mkdir = create directory
+git status
+cd= change directory
+ls = list 
+ls -a = list hidden files
+init - initialize directory
+git add . - add all folders in repository
+git rm --cached <file> - unstage files
+git log
+git help log
+git commit -m (commits modified file with a message)
+git diff - difference between file on disk and file in repo
+git branch - makes new branch
+git checkout (switches branches)
+touch <file> (creates file)
+git merge <branch w/ changes that you want to merge in>
+git branch -d <branch name>
+
+. signifies hidden files
+
+No need to change folders
+or files under repository
+
+Branches
+	Master: production {v 1.0}
+	L Sue
+	L Eric B
+	L Greg
+	L Bob
+	L Eric S
+
+production code (master)
+	L enhancement
+	L bugfixgit 
+
+working tree is clean = disc and repository are in sync
+
+…or create a new repository on the command line
+
+echo "# my-first-repository" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/gmolsen/my-first-repository.git
+git push -u origin master
+…or push an existing repository from the command line
+
+git remote add origin https://github.com/gmolsen/my-first-repository.git
+git push -u origin master or git push -u origin master
+				then git push 
+
+

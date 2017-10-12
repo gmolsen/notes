@@ -1,0 +1,46 @@
+HTML/CSS Outro - Javascript Intro
+
+Key Terms Today:
+
+Attribute - provides additional information about an element;
+	example:<p title="I'm a tooltip">
+
+Procedural Programming - 
+
+Semicolon is a...
+...in C#: Statement Terminator
+...in JS: Statement seperator
+
+Variables in Javascript are dynamic, any value of any data type 
+can be assigned and reassigned to any variable.
+
+Data Types in JS:
+	+numbers
+	+strings
+	+booleans
+	+undefined
+	+arrays
+	+object 
+		- key(any type): value(any type)
+
+Array - a variable than can hold multiple values
+	example: thing [100, "hundred", True, undefined, a[false,290,"hi"]]
+
+Add to Array:
+
+C# - Add();
+Javascript array.push();
+
+Navigate through array
+C# - foreach();
+Javascript - 
+
+== compares values
+=== compares value and type
+
+All you need to run functions in JS is the function name and parameters (optional)
+	...as opposed to methods in C# that could only be run w a class
+	example: function name(parameter 1, parameter 2) {
+			body;
+			return <value>;
+			} 

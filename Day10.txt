@@ -1,0 +1,34 @@
+Day 10 
+
+Arrays!!!!
+
+New Class Library
+-Add New Project (console app)
+-Add New reference
+
+Access Modifiers
+-private (access only within class)
+-public (any other object including outside class)
+-protected (private except to derived classes)
+
+Review these topics:
+
+for loops...3%....
+
+try {
+	var x = n/d;
+} catch (
+
+ref and out parameters
+
+static classes
+
+overloading constructors
+
+system object class (boxing and unboxing)
+
+encapsulation
+
+enumeration
+
+inheritance 

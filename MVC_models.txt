@@ -1,0 +1,18 @@
+Preparing Models
+
++ Attributes
+	-decorate properties
+
++Available Attributes
+	-DataTypeAttribute
+	-DisplayAttribute
+	-Validation
+		-RequiredAttribute
+		-StringLengthAttribute
+		-RegularExpressionAttribute
+		-CompareAttribute
+
+CreditCard?
+Email?
+
+Scaffolding is the process of creating code from a model class.

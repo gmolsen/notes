@@ -1,0 +1,4 @@
+MVC Steps
+	1. Create ASP.NET project
+	2. Enable Testing
+	3. Create Models

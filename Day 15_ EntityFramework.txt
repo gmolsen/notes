@@ -1,0 +1,84 @@
+Entity framework = database inteface that makes interacting with a database a whole lot easier
+
+
+Entity Framework // Razor // HTML
+
+Two ways to use:
+
+
+1. Code First (no DB)
+
+2. DB first (already have DB)
+
+
+1. Create Web Application
+2."install-package entityframework" into package manager
+
+3. Create Class (model) inside models folder, add properties
+and then **BUILD PROJECT**
+
+4. Create controller inside controllers folder
+
+5. Select model class, create new data context class, click
+okay
+
+6. "enable-migrations" into console (done only once)
+
+7. "add-migration 'Added Student'" into console
+
+8. "update-database" into console
+
+7. "add-migration 'description of changes made'" into console
+
+8. "update-database" into console
+
+9. if u want to roll things back you have to delete migrations(???)
+
+10. edit in views (index)
+
+A model is a class that represents the data in your database.
+
+
+
+Lazy Loading - contents of properties are automatically loaded
+from database when you try to access them
+
+
+
+Migrations - upon running program, updates database version 
+so that all changes made are included
+
+
+
+MVC- model / view / controller - a way to break up and application
+so each page is like a stand-alone program instead of one
+monolithic program.
+Isolates each piece of the program so
+they can be worked on seperately. 
+
+
+
+Razor Syntax - @ symbol and all that
+
+
+
+ 
+
+StudentController  - controller (first slash after number in 
+url)
+vvvvv
+Student - model (raw data)
+vvvvv
+Student - view (select _____ from, joins) - 
+
+/*
+Unfinished Steps:
+1. Open Package Manager Console
+2. Enter "Install-package entityframework into console
+(downloads EF and builds reference for us)
+3. "enable-migrations" (copy code into DbContext class file?)
+4.Add contents of table to Student class
+5."add-migration 'Added Student'"
+6."update-database"
+(this creates a table for student and updates the 
+database automatically!!!)*/

@@ -1,0 +1,10 @@
+jQuery
+
+almost all jQuery statements look like this
+	$(selector).action(function(){
+
+}) <------ Anonymous Function
+
+OR
+
+	example: $("button").click(OnClick())

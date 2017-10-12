@@ -1,0 +1,16 @@
+Test Driven Development Steps
+
+1. Create Project named TestDrivenDevelopment or something
+2.Create test file
+3. Create empty test methods TestForZero, TestForOne, TestForNegativeOne,
+TestForMax, TestForMin
+4. Create Class Library
+5. Add Properties and Methods to Class Library
+6. Add appropriate references and using methods
+7. Program Test Methods using classes, Assert.AreEqual(int, int), etc.
+8. Throw exceptions for negative numbers(ArgumentOutOfRangeException), 
+ 0, etc.
+9. Must add [ExpectedException] statement under [TestMethod]
+
+Do you do Test Driven Development?
+

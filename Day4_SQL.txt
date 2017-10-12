@@ -1,0 +1,35 @@
+Day 4 SQL
+
+Begin all variables with an @ sign
+	example: declare @satscore int
+
+What would normally be interpreted as a mathmatic equation
+	example: x = 0
+...is actually an ASSIGNMENT. Do all  things on the right
+side of the equal sign first and then assign that value to the
+variable on the left side of the equal sign.
+
+IN operator
+IS operator
+	example: where MajorID is null
+EXISTS operator - returns true if result set has at least 1 row
+in it
+	example: if exists (select 1 from student where MajorID = @MajorID)
+LIKE operator only works on strings
+	example: where Name like 'M_cro%'
+
+STORED PROCEDURES
+
+if BOOLEAN EXPRESSION (true or false)
+Begin
+	--do these lines if true
+End
+	-- go to this line if false
+
+copy sql stuff into new repository
+
+git add <file>
+git status
+git commit -m '     '
+git push
+

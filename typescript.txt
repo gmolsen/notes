@@ -1,0 +1,4 @@
+Typescript
+	-Superset of JS
+	-Browsers do not do TS
+	-must be compiled into JS w/ GitBash

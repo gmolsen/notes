@@ -1,0 +1,19 @@
+Model - models the data
+View - determines how data is displayed
+Controller - determines how to two interact
+
+cross-site scripting??
+
+<configuration> settings
+<connectionStrings>
+<appSettings>
+
+things I am not comfortable with:
+
+MVC
+-migrations
+Major table has wrong columns
+
+bracket settings
+
+install-package microsoft.aspnet.webapi.core
